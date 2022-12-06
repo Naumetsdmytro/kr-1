@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .container {
+        width: 992px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+.cont-title {
+    text-align: center;
+}
+
+
+
+.block {
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab',
+        serif;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width:768px) {
+    .block {
+        width: 355px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .block {
+        width: 301px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .block {
+        width: 269px;
+    }
+}
+
+
+
+.block-1 {
+    background-color: #008080;
+    color: #fff;
+    border: 2px solid black;
+    position: relative;
+}
+
+@media only screen and (min-width:768px) {
+    .block-1 {
+        margin-right: 30px;
+    }
+}
+
+
+
+.block-2 {
+    background-color: #BDB76B;
+    color: #fff;
+    border: 2px solid black;
+    position: relative;
+    padding-left: 16px;
+}
+
+@media only screen and (min-width:992px) {
+    .block-2 {
+        margin-right: 30px;
+    }
+}
+
+
+.block-3 {
+    background-color: #483D8B;
+    color: #fff;
+    border: 2px solid black;
+    position: relative;
+}
+
+@media only screen and (min-width:768px) {
+    .block-3 {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .block-3 {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .block-3 {
+        margin-right: 30px;
+    }
+}
+
+.block-4 {
+    background-color: #2F4F4F;
+    color: #fff;
+    border: 2px solid black;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+@media only screen and (min-width:1200px) {
+    .block {
+        margin-bottom: 0;
+    }
+}
+
+.block-title {
+    background-color: #BC8F8F;
+    color: white;
+    min-width: 75px;
+    padding: 4px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-family: 'Roboto Serif', serif;
+}
