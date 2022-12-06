@@ -68,23 +68,24 @@ a {
     padding-bottom: 30px;
     width: 100%;
     margin-bottom: 10px;
+    padding-left: 16px;
 }
 
 @media only screen and (min-width:768px) {
     .block {
-        width: 355px;
+        width: 349px;
     }
 }
 
 @media only screen and (min-width:992px) {
     .block {
-        width: 301px;
+        width: 290px;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .block {
-        width: 269px;
+        width: 257px;
     }
 }
 
@@ -110,7 +111,6 @@ a {
     color: #fff;
     border: 2px solid black;
     position: relative;
-    padding-left: 16px;
 }
 
 @media only screen and (min-width:992px) {
